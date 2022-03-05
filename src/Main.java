@@ -7,12 +7,15 @@ public class Main {
     Output_Panel gui = new Output_Panel();
     Output_Main guiMain = new Output_Main();
 
+    //instances
+    private static String answerWord;
+
     public static void main(String[] args) throws Exception {
         //array where all the words are going to be
         String[] wordsArr = new String[500];
 
         // getting and reading txt file
-        File wordsFile = new File("/Users/tinaz/Desktop/Dev/java/snowman/6-LetterWords.txt");
+        File wordsFile = new File("/Users/tinaz/Documents/GitHub/SnowmanGameRedo/6-LetterWords.txt");
         Scanner readWords = new Scanner(wordsFile);
 
         //putting it in an array
@@ -25,10 +28,8 @@ public class Main {
         Random rand = new Random();
         int randomNum = rand.nextInt(500);
 
-        String answerWord = wordsArr[randomNum];
+        answerWord = wordsArr[randomNum];
 
-        //inst word.java
-        Word word = new Word(answerWord);
     }
 
     public void game() {

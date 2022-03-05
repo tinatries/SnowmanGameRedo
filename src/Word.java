@@ -20,4 +20,8 @@ public class Word {
         }
         return inWord;
     }
+
+    public char[] getWord() {
+        return word;
+    }
 }
