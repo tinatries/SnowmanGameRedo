@@ -8,10 +8,10 @@ public class Output_Main extends JFrame {
 
     //sets up the area to draw
     public static void main(String[] args) {
-        Output_Main  window = new Output_Main ();
+        Output_Main window = new Output_Main();
         JPanel p = new JPanel();
         p.add(new Output_Panel());  //  add a class that extends JPanel
-        window.setTitle("Snowman");
+        window.setTitle("COME ON");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         window.setContentPane(p);

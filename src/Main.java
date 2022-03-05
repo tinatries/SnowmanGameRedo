@@ -3,10 +3,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    //instantiating object(s)
-    Output_Panel gui = new Output_Panel();
-    Output_Main guiMain = new Output_Main();
-
     //instances
     private static String answerWord;
 
@@ -29,37 +25,6 @@ public class Main {
         int randomNum = rand.nextInt(500);
 
         answerWord = wordsArr[randomNum];
-
     }
-
-    public void game() {
-    }
-
-    public char letterGuessed() {
-        //guessed letters (26, because 26 letters)
-        char letterGuessed = gui.returnUserInput();
-        char[] lettersGuessed = new char[26];
-        boolean alreadyGuessed = false;
-
-        //checks if the letter has already been guessed
-        for (int i = 0; i < lettersGuessed.length; i++) {
-            if (lettersGuessed.equals(lettersGuessed[i])) {
-                i = lettersGuessed.length;
-                System.out.println("already chosen");
-                alreadyGuessed = true;
-            }
-        }
-
-        if (alreadyGuessed ==  false) {
-            for (int i = 0; i < lettersGuessed.length; i++) {
-                if (lettersGuessed[i] == 0) {
-                    lettersGuessed[i] = letterGuessed;
-                    return letterGuessed;
-                }
-            }
-        }
-        return 0;
-    }
-
 
 }
