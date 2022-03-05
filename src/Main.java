@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     //instantiating object(s)
     Output_Panel gui = new Output_Panel();
+    Output_Main guiMain = new Output_Main();
 
     public static void main(String[] args) throws Exception {
         //array where all the words are going to be
@@ -18,7 +19,6 @@ public class Main {
         for (int i = 0; i < 500; i++)
         {
             wordsArr[i] = readWords.nextLine();
-            System.out.println(wordsArr[i]);
         }
 
         //picking random word;

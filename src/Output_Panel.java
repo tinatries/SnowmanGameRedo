@@ -45,6 +45,16 @@ public class Output_Panel extends JPanel implements KeyListener {
         //this is there so that the class actually runs without being an abstract...
     }
 
+    public void paintComponent(Graphics g){
+        Graphics2D g2 = (Graphics2D) g;
+
+        g2.setColor(Color.RED);
+
+        g2.drawRect(100, 100, 100, 100);
+
+        g2.setFont(new Font("Arial", 1, 50));
+    }
+
     //Methods for Main
     public char returnUserInput()
     {
