@@ -1,0 +1,13 @@
+What is throws Excpetion
+    - What is throws
+    - What is Exception
+
+Look at FileReader documentation
+Look at File documentation
+
+
+
+all words would probably be better as an arrayList
+    because then you don't need to define capacity for list unlike an array
+
+what is try{}, and cat{}
