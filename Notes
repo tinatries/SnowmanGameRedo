@@ -18,4 +18,4 @@ JPanel, lightweight GUI thing.
 
 panel setFocusable(true)
 
-abstract 
+abstract
