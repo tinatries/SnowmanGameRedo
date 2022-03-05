@@ -11,3 +11,11 @@ all words would probably be better as an arrayList
     because then you don't need to define capacity for list unlike an array
 
 what is try{}, and cat{}
+
+it keeps saying that git didn't install properly on this so- maybe check it out later;
+
+JPanel, lightweight GUI thing.
+
+panel setFocusable(true)
+
+abstract 

@@ -6,11 +6,18 @@ public class Word {
         word = answerWord.toCharArray();
     }
 
-    public boolean letterGuess(char guess) {
+    public boolean letterGuess(char guess)
+    {
         //checks if the letter guessed is in the word
+        boolean inWord = false;
         for(int i = 0; i < word.length; i++)
         {
-            
+            if (word[i] == guess)
+            {
+                inWord = true;
+                i = word.length;
+            }
         }
+        return inWord;
     }
 }

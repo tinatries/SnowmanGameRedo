@@ -31,8 +31,12 @@ public class Main {
     public void game() {
         //guessed letters (26, because 26 letters)
         char[] lettersGuessed = new char[26];
+        boolean alreadyGuessed = false;
 
         //checks if the letter has already been guessed
+        for (int i = 0; i < lettersGuessed.length; i++)
+        {
 
+        }
     }
 }
