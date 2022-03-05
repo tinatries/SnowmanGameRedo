@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="eb40f76c-1740-48c6-bb89-f1c0c2d59e6e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Output_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Output_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Output_Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Output_Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SnowmanGameRedo/Word.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Output_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Output_Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output_Panel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,26 +52,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SnowmanGameRedo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Output_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Output_Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Output_Main" />
       <module name="SnowmanGameRedo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Output_Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
